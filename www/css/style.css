@@ -1,0 +1,67 @@
+.cadastro-fundo{
+  padding-top: 100px;
+  max-width: 100%;
+  background-color: #8C6D76; /*roxo palido*/
+  background-image: url(../img/fundo.jpg);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+}
+.log{
+  margin: auto;
+}
+.logo img{
+  margin-left: 92px;
+  width: 50%;
+}
+.cadastro{
+  padding: 20px;
+}
+.cadastro label{
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+.cadastro input{
+  border: none;
+  margin-left: 10px;
+}
+.cadastro input:placeholder{
+  color: #59454B;
+}
+.cadastro button{
+  border-radius: 20px;
+}
+.button-logar{
+  background-color: #59454B; /*roxo marrom*/
+  color: #D8A7B6;
+}
+.button-cadastar{
+  background-color: #D8A7B6; /*rosa palido*/
+  color: #59454B; 
+}
+.cadastro a{
+  color: #59454B;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cadastro .icon{
+  color: #D8A7B6;
+}
+.cards{
+  margin: auto;
+}
+.listagem .card{
+  width: 45%;
+  float: left;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.cards-lista{
+  float: left;
+}
+
+/*Listagem*/
+.tabs-listagem{
+  background-color: #D8A7B6; /*rosa palido*/
+}

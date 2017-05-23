@@ -1,0 +1,1 @@
+var cadastro = angular.module('cadastro',[]); 

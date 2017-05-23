@@ -1,0 +1,26 @@
+<ion-view class="cadastro-fundo">
+
+	<div class="logo">
+		<img src="../../img/logo.png">
+	</div>
+	<div class="list cadastro">
+	  <p>Insira o e-mail de cadastro para receber o link de alteração da senha</p>
+	  <label class="item item-input">
+	   <i class="icon ion-at"></i>
+	   <input type="text" placeholder="E-mail">
+	  </label>
+	  <button class="button button-block button-logar" ng-click="enviarEmail()">Enviar</button>
+	  <a href="">Voltar</a>
+	</div>
+</ion-view>
+
+<script id="my-modal.html" type="text/ng-template">
+  <ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Redefinir senha</h1>
+    </ion-header-bar>
+    <ion-content>
+      E-mail enviado!
+    </ion-content>
+  </ion-modal-view>
+</script>
