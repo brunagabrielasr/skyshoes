@@ -2,32 +2,39 @@
   padding-top: 100px;
   max-width: 100%;
   background-color: #8C6D76; /*roxo palido*/
-  background-image: url(../img/fundo.jpg);
+  background-image: url(../img/fundo4.jpg);
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
+  background-position: -416px -184px;
 }
-.log{
-  margin: auto;
+.logo h1{
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-shadow: 2px 2px #D86789;
 }
 .logo img{
   margin-left: 92px;
-  width: 50%;
+  width: 45%;
 }
 .cadastro{
   padding: 20px;
 }
 .cadastro label{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
   border: none;
   margin-bottom: 10px;
 }
+.cadastro input::-webkit-input-placeholder{
+  color: #59454B;
+}
 .cadastro input{
   border: none;
   margin-left: 10px;
-}
-.cadastro input:placeholder{
-  color: #59454B;
+  color: #D8A7B6;
+  font-size: 18px;
+  font-weight: 400;
 }
 .cadastro button{
   border-radius: 20px;
@@ -35,17 +42,92 @@
 .button-logar{
   background-color: #59454B; /*roxo marrom*/
   color: #D8A7B6;
+  font-size: 18px;
 }
 .button-cadastar{
   background-color: #D8A7B6; /*rosa palido*/
+  font-size: 18px;
   color: #59454B; 
 }
+.cadastro input:focus{
+  color: #cdcdcd !important;
+}
+.cadastro ::-webkit-input-placeholder {
+  color: #D8A7B6 !important;
+}
+.cadastro :-moz-placeholder { /* Firefox 18- */
+  color: #D8A7B6 !important;  
+}
+
+.cadastro ::-moz-placeholder {  /* Firefox 19+ */
+  color: #D8A7B6 !important;
+}
+
+.cadastro :-ms-input-placeholder {  
+  color: #D8A7B6 !important;  
+}
 .cadastro a{
-  color: #59454B;
+  color: #D8A7B6;
   text-decoration: none;
   font-weight: bold;
+  text-shadow: 5px 2px 5px #59454B;
+  float: right;
+}
+.cadastro a:hover{
+  text-shadow: 5px 2px 10px #D86789;
 }
 .cadastro .icon{
+  color: #D8A7B6;
+}
+.title-cadastro h3{
+  color: #D8A7B6;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 2px 2px #59454B;
+}
+.bar-perfil{
+  background-color: #9F4B64;
+}
+.bar-perfil .button-icon{
+  color: #D8A7B6;
+}
+.bar h1{
+  margin-left: 15px;
+  color: #D8A7B6;
+}
+.perfil-imagem{
+  text-align: center;
+  background-color: #9F4B64;
+  padding: 20px 0; 
+}
+.perfil-imagem h2{
+  margin-top: 10px;
+  color: #D8A7B6;
+  font-size: 20px;
+}
+.perfil-imagem img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: rgba(216, 167, 182, 0.3) solid 3px;
+}
+.perfil-dados{
+  margin-top: 30px;
+  padding: 0 20px;
+  border: none;
+  margin-bottom: 30px;
+}
+.perfil-dados span{
+  color: #D8A7B6;
+  font-size: 16px;
+}
+.perfil-dados input{
+  font-size: 16px;
+}
+.button-perfil{
+  background-color: #9F4B64;
+  font-size: 18px;
   color: #D8A7B6;
 }
 .cards{

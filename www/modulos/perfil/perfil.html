@@ -1,24 +1,46 @@
-<ion-view>
-	<ion-content class="has-header">
-		<div class="list card">
+<ion-view >
+<ion-header-bar class="bar bar-header bar-perfil">
+    <button class="button button-icon ion-navicon"></button>
+    <h1 class="title">Perfil</h1>
+    <button class="button button-icon ion-ios-checkmark-empty" ng-click="add()"></button>   
+  </ion-header-bar>
+<ion-content class="cor-fundo has-header">
 
-		  <div class="item profile">
-		    <img src="img/user01.jpg">
-		    <h2>Gabriela</h2>
-		  </div>
+<div class="list perfil">
 
-		  <div class="list list-inset">
+  <div class="item perfil-imagem">
+    <img src="../../img/avatar1.jpg">
+    <h2>Bruna Gabriela</h2>
+  </div>
 
-		    <div class="item">
-		      Raiders of the Lost Ark
-		    </div>
+  <div class="list perfil-dados">
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Username</span>
+      <input type="text" placeholder="Bruna Gabriela">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Nome</span>
+      <input type="text" placeholder="Bruna Gabriela S.">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Idade</span>
+      <input type="text" placeholder="27">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Número do calçado</span>
+      <input type="text" placeholder="37">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">E-mail</span>
+      <input type="text" placeholder="bruna.gbr@hotmail.com">
+    </label>
+    <label class="item item-input item-stacked-label">
+      <span class="input-label">Senha</span>
+      <input type="password" placeholder="*******">
+    </label>
+    <p hidden><span>ID_API:</span></p>
+    <button class="button button-block button-perfil" ng-click="cadastrar()">Salvar alterações</button>
+  </div>
 
-		    ...
-
-			</div>
-
-
-		</div>
-		
-	</ion-content>
+</ion-content>
 </ion-view>

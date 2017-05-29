@@ -5,14 +5,12 @@ login.config(function($stateProvider, $urlRouterProvider){
           templateUrl: '../modulos/login/login.html',
           controller: 'loginController',
           controllerAs: 'loginCtrl'
-      })
-      .state('novaSenha', {
-          url: '/redefinirSenha',
-          templateUrl: '../modulos/cadastro/redefinirSenha.html',
-          controller: 'loginController',
-          controllerAs: 'loginCtrl'
       });
-	$urlRouterProvider.otherwise('/login');
-
-
+      /*.state('cadastro', {
+          url: '/cadastro',
+          templateUrl: '../modulos/cadastro/cadastro.html',
+          controller: 'cadastroController',
+          controllerAs: 'cadastroCtrl'
+      });*/
+    $urlRouterProvider.otherwise('/login');
 });

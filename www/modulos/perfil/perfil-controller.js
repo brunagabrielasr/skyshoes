@@ -1,11 +1,10 @@
-sapato.controller('sapatoController', sapatoController);
+perfil.controller('perfilController', perfilController);
 
-function sapatoController($scope, $ionicPlatform, $state){
+function perfilController($scope, $ionicPlatform, $state){
  
 	$scope.logar = function(){
-    	$state.go('cadastro');
+    	$state.go('listagem');
     }
-
 }
 
 

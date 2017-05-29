@@ -1,9 +1,9 @@
-cadastro.config(function($stateProvider, $urlRouterProvider){
+perfil.config(function($stateProvider, $urlRouterProvider){
     $stateProvider
-      .state('cadastro', {
-          url: '/cadastro',
-          templateUrl: '../modulos/cadastro/cadastro.html',
-          controller: 'cadastroController',
-          controllerAs: 'cadastroCtrl'
+      .state('perfil', {
+          url: '/perfil',
+          templateUrl: '../modulos/perfil/perfil.html',
+          controller: 'perfilController',
+          controllerAs: 'produtoCtrl'
       });
 });

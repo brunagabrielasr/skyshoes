@@ -9,10 +9,6 @@ function loginController($scope, $ionicPlatform, $state){
     $scope.cadastrar = function(){
     	$state.go('cadastro');
     }
-
-    $scope.redefinirSenha = function(){
-    	$state.go('novaSenha')
-    }
 }
 
 
