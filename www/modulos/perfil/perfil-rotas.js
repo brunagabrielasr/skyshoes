@@ -6,4 +6,6 @@ perfil.config(function($stateProvider, $urlRouterProvider){
           controller: 'perfilController',
           controllerAs: 'produtoCtrl'
       });
+    $urlRouterProvider.otherwise('/perfil');
 });
+
